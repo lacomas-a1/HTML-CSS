@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UNIVERSITY WEBSITE DESIGN</title>
+   <link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
+	
+</head>
+<body>
+	<style type="text/css"></style>
+<section class="sub-header">
+   <nav>
+    	<a href="university.html"><img src="images/logo.png"></a>
+    		<div class="nav-links" id="navlinks">
+    			<i class="fas fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    				<li><a href="university.html">HOME</a></li>      
+    			   <li><a href="about.html">ABOUT</a></li>    		
+    				<li><a href="course.html">COURSE</a></li>   		
+    				<li><a href="blog.html">PROGRAMMES</a></li>   		
+    				<li><a href="contact.html">CONTACT</a></li>    		
+    			</ul>
+    		</div>
+    		   <i class="fa fa-bars" onclick="showmenu()"></i>
+   </nav>
+        <h1>ABOUT US</h1>
+</section>
+
+ <!----------------------ABOUT US CONTENT----------------------->
+
+ <section class="about-us">
+ 	 <div class="row">
+ 	 	<div class="about-col">
+ 	 		<h1> We Are The World's Largest University</h1>
+ 	 		<p>
+ 	 			Royal Media University is a premier university that offer very marketable and demand driven programmes that positively impact the student and the community.We have a state of art equipment needed for practical courses,very competent lecturers and non-teasching staff who are very welcoming and friendly.
+ 	 			<br>
+ 	 			We don't just give students an education and experience that set them up for success in a career.We help them succeed in their career-to discover a field they're passionate about and dare to lead it. 
+  	 			<br>
+ 	 			Welcome to Royal Media University a home of integrity,peace,intelligence,proffesionalism and unity.
+ 	 		</p>
+ 	 		<a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+ 	 	</div>
+ 	 	<div class="about-col">
+ 	 		<img src="images/about.jpg">
+ 	 	</div>
+ 	 </div>
+ </section>
+ <!------------------------OUR CORE VALUES------------------------------------>
+
+ <section class="course">
+	<h1>Our Core Values</h1>
+	<p> 
+		The Council,Senate,Management,Staff and Students endeavor to institutionalize and inculate values fostering a strong corporate culture while promoting quality service delivery,cohesion in our diverse community and achieving the targeted goals.
+	</p>
+	<div class="row">
+		<div class="course-col">
+			<h3>Our philosophy</h3>
+			<p>
+				Quality education, training,research,extension,enviromental sustainable,and enterpreneurship lead to social cohesion,human intergrity,and economic development.
+			</p>
+		</div>
+			<div class="course-col">
+			<h3>Vision</h3>
+			<p>
+				A premier University for the provision of quality education,training and research for sustainable national and global development.
+			</p>
+		</div>
+			<div class="course-col">
+			<h3>Mission</h3>
+			<p>
+				To provide access,generate,preserve and share knowledge for quality,effective and ethical leadership in higher education,training,research and outreach through nurturing an intellectual culture that intergrates theory with practise,innovation and enterpreneurship.
+			</p>
+		</div>
+	</div>
+</section>
+
+ <!---------------------------FOOTER---------------------------->
+
+ <section class="footer">
+ 	 <h1>About Us</h1>
+ 	 <p>
+ 	 	Royal Media University  is the largest University, with campuses in all regions of nations.<br>The University was founded on the belief that delivering quality education plays a crucial role in boosting the human and economic development of the country.<br>We believe the University graduates play leading roles in realizing the goal of becoming a middle income nation in the coming decades.
+ 	 </p>
+ 	 <div class="icons">
+        <i><img src="images/facebook.png"></i>
+        <i><img src="images/twitter.png"></i>
+        <i><img src="images/whatapps.jpg"></i>
+        <i><img src="images/instagram.jpeg"></i>
+  	 </div>
+  	  <p><em>Made With By: <strong>Lacomas</strong></em></p>
+ </section>
+
+ <!-----------------JAVASCRIPT FOR TOGGLE MENU------------------>
+
+  <script>
+  	  var navlinks = document.getElementById("navlinks")
+  	  function showmenu(){
+  	  	    navlinks.style.right = "0";
+  	  }
+  	  function hidemenu(){
+  	  	    navlinks.style.right ="-200px";
+  	  }
+  </script>
+</body>
+</html>

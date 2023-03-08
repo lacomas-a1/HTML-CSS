@@ -1,0 +1,122 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UNIVERSITY WEBSITE DESIGN</title>
+   <link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
+	
+</head>
+<body>
+	<style type="text/css"></style>
+<section class="sub-header">
+   <nav>
+    	<a href="university.html"><img src="images/logo.png"></a>
+    		<div class="nav-links" id="navlinks">
+    			<i class="fas fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    				<li><a href="university.html">HOME</a></li>       
+    				<li><a href="about.html">ABOUT</a></li>    		
+    				<li><a href="course.html">COURSE</a></li>   		
+    				<li><a href="blog.html">PROGRAMMES</a></li>   		
+    				<li><a href="contact.html">CONTACT</a></li>  		
+    			</ul>
+    		</div>
+    		   <i class="fa fa-bars" onclick="showmenu()"></i>
+   </nav>
+        <h1>OUR CERTIFICATE & ONLINE PROGRAMS FOR 2021</h1>
+</section>
+
+ <!----------------------BLOG PAGE CONTENT---------------------->
+
+<section class="blog-content">
+	<div class="row">
+		<div class="blog-left">
+			<img src="images/certificate.jpg">
+			<h2>Our Certificate & Online Programs For 2021</h2>
+			 <p>
+			 	The Departments aims at producing top notch scholars and partitioners to offer competitive leadership in all aspects of all courses for the national and international marketplace.We cultivate positive attidude towards computing and its dynamic in the view to produce graduates capable of adapting to the dynamic trends of global market,
+			 </p>
+			 <br>
+		    <p>
+			 	While upholding the Royal Media University's core values,embraced within our academic programs.Our mission is to produce leaders and professionals in various courses for advancing science and entrepreneurship for enhancing socio-economic and sustainable development.
+			 </p>
+			 <br>
+			 <p>
+			 	We are commited to support all teaching and research activituies at RMU through the delivery of hugh quality services to all information seekers.We invite you to join the Library in achieving her vision,which is to actively participate in teaching ,learning and research by providing information resources and services to the user community.
+			 </p>
+
+			 <div class="comment-box">
+			 	<h3>Leave a Comment</h3>
+			 	<form class="comment-form">
+			 		<input type="text" placeholder="enter name">
+			 		<input type="email" placeholder="enter email">
+			 		<textarea rows="5" placeholder="Your comment"></textarea>
+			 		<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+			 	</form>
+			 </div>
+		</div>
+		<div class="blog-right">
+			<h3>Post Categories</h3>
+			<div>
+				<span>Business Analytics</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>Data Science</span>
+				<span>28</span>
+			</div>
+			<div>
+				<span>Machine Learning</span>
+				<span>15</span>
+			</div>
+			<div>
+				<span>Computer Science</span>
+				<span>34</span>
+			</div>
+			<div>
+				<span>AutoCAD</span>
+				<span>42</span>
+			</div>
+			<div>
+				<span>Journalism</span>
+				<span>22</span>
+			</div>
+			<div>
+				<span>Commerce</span>
+				<span>30</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+ <!---------------------------FOOTER---------------------------->
+
+  <section class="footer">
+ 	 <h1>About Us</h1>
+ 	 <p>
+ 	 	Royal Media University  is the largest University, with campuses in all regions of nations.<br>The University was founded on the belief that delivering quality education plays a crucial role in boosting the human and economic development of the country.<br>We believe the University graduates play leading roles in realizing the goal of becoming a middle income nation in the coming decades.
+ 	 </p>
+ 	 <div class="icons">
+        <i><img src="images/facebook.png"></i>
+        <i><img src="images/twitter.png"></i>
+        <i><img src="images/whatapps.jpg"></i>
+        <i><img src="images/instagram.jpeg"></i>
+  	 </div>
+  	  <p><em>Made With By: <strong>Lacomas</strong></em></p>
+ </section>
+
+ <!-----------------JAVASCRIPT FOR TOGGLE MENU------------------>
+
+  <script>
+  	  var navlinks = document.getElementById("navlinks")
+  	  function showmenu(){
+  	  	    navlinks.style.right = "0";
+  	  }
+  	  function hidemenu(){
+  	  	    navlinks.style.right ="-200px";
+  	  }
+  </script>
+</body>
+</html>

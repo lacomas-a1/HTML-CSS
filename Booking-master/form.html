@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+
+body {
+    background-color: rgb(250, 231, 231);
+}
+form{
+    height: 600px;
+}
+
+.logo {
+    position: absolute;
+    top: -160px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 213px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-bottom: 5px;
+    display: inline-block;
+    color: blue;
+    margin-left: 5px;
+}
+
+div label {
+    display: block;
+    width: 300px;
+}
+fieldset{
+    height: 400px;
+    
+    
+}
+    </style>
+   <h2><center>BOOK OR HIRE A CAR</center> </h2>
+    <form action="_parent" method="post" class="form1">
+        <fieldset>
+            <legend>passenger details*</legend>
+        
+        <p>
+            <div>
+           <label for="name"><p>Firstname:</p></label> 
+            <input type="text" name=""fname id="" size="25">
+        </div>
+        <div>
+            <label for="name"><p>Lastname:</p></label> 
+            <input type="text" name="lname" id="" size="25">
+        </div> 
+        <div>
+            <label for="name"><p>Id:</p></label> 
+            <input type="number" name="id" id="" size="25">
+        </div>
+    </p> <p>
+        <div>
+            <label for="name"><p>Email:</p></label> 
+            <input type="email" name="email" id="" size="25">
+        </div>
+   
+        <div>
+            <label for="name"><p>Phone Number:</p></label> 
+            <input type="number" name="number" id="" size="25">
+        </div>
+        <div>
+            <label for="name"><p>Address:</p></label> 
+            <input type="text" name="address" id="" size="25">
+        </div>
+
+    </p> <p>
+        <div>
+            <label for="name"><p>From:</p></label> 
+            <input list="places" size="25">
+        <datalist  id="places">
+            <option value="migori"></option>
+            <option value="mombasa"></option>
+            <option value="kisumu"></option>
+            <option value="nairobi"></option>
+            <option value="taveta"></option>
+            <option value="nakuru"></option>
+            <option value="narok"></option>
+            <option value="eldoret"></option>
+            <option value="homabay"></option>
+            <option value="turkana"></option>
+
+
+        </datalist>
+        
+    </div>
+    <div>
+        <label for="name">To:</label>
+        <input list="places"  size="25">
+        <datalist id="places">
+            <option value="migori"></option>
+            <option value="mombasa"></option>
+            <option value="kisumu"></option>
+            <option value="nairobi"></option>
+            <option value="taveta"></option>
+            <option value="nakuru"></option>
+            <option value="narok"></option>
+            <option value="eldoret"></option>
+            <option value="homabay"></option>
+            <option value="turkana"></option>
+        </datalist>
+    </div>
+</p><p>
+    <div>
+        <label for="name">Departure:</label>
+        <input type="date" name="date" id="" size="25">
+        <input type="time" name="time" id="" size="25">
+
+    </div>
+    <div>
+        <label for="name">Arrivial:</label>
+        <input type="date" name="date" id="" size="25">
+        <input type="time" name="time" id="" size="25">
+    </div>
+    <div>
+        <label for="name">NO. OF SITS:</label>
+        <input "text" id="" size="25">
+    </div>
+</p>
+<div class="logo">
+    <img src="IMG-20211017-WA0010.jpg" alt="" width="440px" height="330px">
+</div>
+    </fieldset>
+
+    <input type="submit" value="submit">
+    </form>
+</body>
+</html>

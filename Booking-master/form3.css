@@ -1,0 +1,24 @@
+body {
+    background-color: darkgray;
+}
+
+.logo {
+    width: 100px;
+    height: 75px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-bottom: 10px;
+    display: inline-block;
+    color: blue;
+}
+
+div label {
+    display: block;
+    width: 300px;
+}

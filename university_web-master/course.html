@@ -1,0 +1,126 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UNIVERSITY WEBSITE DESIGN</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<style type="text/css"></style>
+<section class="sub-header">
+   <nav>
+    	<a href="university.html"><img src="images/logo.png"></a>
+    		<div class="nav-links" id="navlinks">
+    			<i class="fas fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    				<li><a href="university.html">HOME</a></li>       
+    				<li><a href="about.html">ABOUT</a></li>    		
+    				<li><a href="course.html">COURSE</a></li> 
+               <li class="dropdown">
+    					<a href="" class="dropbtn">PORTAL</a>
+    					<ul class="dropdown-content">
+    						<a href="portal.html ">STUDENT'S PORTAL</a>
+    						<a href="portal2.html">STAFF'S PORTAL</a>
+    					</ul>
+    				</li>	
+    				<li><a href="blog.html">PROGRAMMES</a></li>   	
+    				<li><a href="contact.html">CONTACT</a></li>  	
+    			</ul>
+    		</div>
+    		   <i class="fa fa-bars" onclick="showmenu()"></i>
+   </nav>
+        <h1>OUR COURSES</h1>
+</section>
+
+ <!---------------------------COURSES-------------------------->
+
+<section class="course">
+	<h1>Courses We Offer</h1>
+	<p> Learn more about the courses we offer,and find out how to make an application to join us.
+	</p>
+	<div class="row">
+		<div class="course-col">
+			<h3>Intermediate</h3>
+			<p>
+				The Board of Intermediate Studies and Field Attachment is a statutory body of the University which is charged wuth the coordination of all undergraduate programmes.
+			</p>
+		</div>
+			<div class="course-col">
+			<h3>Degree</h3>
+			<p>
+				The Board of Degree Studies and Field Attachment is a statutory body of the University which is charged wuth the coordination of all Degree programmes.
+			</p>
+		</div>
+			<div class="course-col">
+			<h3>Post Graduation</h3>
+			<p>
+				The Board of Postgraduate Studies and Field Research is a statutory body of the University which is charged wuth the coordination of all postgraduate programmes.
+			</p>
+		</div>
+	</div>
+</section>
+
+ <!-----------------------FACILITIES---------------------------->
+
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p> We assure the people that our facilities are used in the most efficient way posssible for the benifit of the Nations.
+   </p>
+   <div class="row">
+   	<div class="facilities-col">
+   		<img src="images/library.png">
+   		<h3>World Class Library</h3>
+   		<p>
+   			The location of the libraries building is in a central place of the institution easily accessible to all users.The library provides physical or vartual access to materials in the room.
+   		</p>
+   	</div>
+   		<div class="facilities-col">
+   		<img src="images/basketball.png">
+   		<h3>Largest Play Ground</h3>
+   		<p>
+   			The University recognizes co-curricular activities as suplemments in classroom education thus the sporting activities and indoor games have well-ttained coaches to develop student's talent.
+   		</p>
+   	</div>
+   		<div class="facilities-col">
+   		<img src="images/cafeteria.png">
+   		<h3>Tasty And Healthy Food</h3>
+   		<p>
+   			Our Catering department is responsible for the welfare of The University students and staff.It has a social responsibility of developing a menu that will help to build a strong, healthy population.
+   		</p>
+   	</div>
+   </div>
+</section>
+
+ <!---------------------------FOOTER---------------------------->
+
+ <section class="footer">
+ 	 <h1>About Us</h1>
+ 	 <p>
+ 	 	Royal Media University  is the largest University, with campuses in all regions of nations.<br>The University was founded on the belief that delivering quality education plays a crucial role in boosting the human and economic development of the country.<br>We believe the University graduates play leading roles in realizing the goal of becoming a middle income nation in the coming decades.
+ 	 </p>
+ 	 <div class="icons">
+        <i><img src="images/facebook.png"></i>
+        <i><img src="images/twitter.png"></i>
+        <i><img src="images/whatapps.jpg"></i>
+        <i><img src="images/instagram.jpeg"></i>
+  	 </div>
+  	  <p><em>Made With By: <strong>Lacomas</strong></em></p>
+ </section>
+
+
+ <!-----------------JAVASCRIPT FOR TOGGLE MENU------------------>
+
+  <script>
+  	  var navlinks = document.getElementById("navlinks")
+  	  function showmenu(){
+  	  	    navlinks.style.right = "0";
+  	  }
+  	  function hidemenu(){
+  	  	    navlinks.style.right ="-200px";
+  	  }
+  </script>
+</body>
+</html>

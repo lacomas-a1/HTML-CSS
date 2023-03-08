@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UNIVERSITY WEBSITE DESIGN</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<section class="sub-header">
+   <nav>
+    	<a href="university.html"><img src="images/logo.png"></a>
+    		<div class="nav-links" id="navlinks">
+    			<i class="fas fa-times" onclick="hidemenu()"></i>
+    			<ul>
+    				<li><a href="university.html">HOME</a></li>       
+    				<li><a href="about.html">ABOUT</a></li>    		
+    				<li><a href="course.html">COURSE</a></li>
+    				<li class="dropdown">
+    					<a href="" class="dropbtn">PORTAL</a>
+    					<ul class="dropdown-content">
+    						<a href="portal.html ">STUDENT'S PORTAL</a>
+    						<a href="portal2.html">STAFF'S PORTAL</a>
+    					</ul>
+    				</li>  		
+    				<li><a href="blog.html">PROGRAMMES</a></li>   		
+    				<li><a href="contact.html">CONTACT</a></li> 		
+    			</ul>
+    		</div>
+    		   <i class="fa fa-bars" onclick="showmenu()"></i>
+   </nav>
+        <h1>STAFF'S  PORTAL</h1>
+ <!---------------------LOG IN FORM----------------------------->
+
+ <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/badge2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+ <!---------------------------FOOTER---------------------------->
+
+ <section class="footer">
+ 	 <h1>About Us</h1>
+ 	 <p>
+ 	 	Royal Media University  is the largest University, with campuses in all regions of nations.<br>The University was founded on the belief that delivering quality education plays a crucial role in boosting the human and economic development of the country.<br>We believe the University graduates play leading roles in realizing the goal of becoming a middle income nation in the coming decades.
+ 	 </p>
+ 	 <div class="icons">
+        <i><img src="images/facebook.png"></i>
+        <i><img src="images/twitter.png"></i>
+        <i><img src="images/whatapps.jpg"></i>
+        <i><img src="images/instagram.jpeg"></i>
+     </div>
+      <p><em>Made With By: <strong>Lacomas</strong></em></p>
+ </section>
+
+
+ <!-----------------JAVASCRIPT FOR TOGGLE MENU------------------>
+
+  <script>
+  	  var navlinks = document.getElementById("navlinks")
+  	  function showmenu(){
+  	  	    navlinks.style.right = "0";
+  	  }
+  	  function hidemenu(){
+  	  	    navlinks.style.right ="-200px";
+  	  }
+  </script>
+</body>
+</html>

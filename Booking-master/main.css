@@ -1,0 +1,296 @@
+*{
+    margin : 0;
+    padding : 0;
+
+}
+.home{
+    width: 100%;
+    
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50% 
+    ,transparent ),url(images/IMG-20211017-WA0013.jpg) ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 109vh;
+    position: relative;
+    
+    
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 100px;
+    float: right;
+    cursor: pointer;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 100px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(245, 8, 8);
+    font-family: arial;
+    font-weight: bold;
+    position: relative;
+    /* transition: 0.4s ease-in-out; */
+}
+ul li a:hover{
+    color: lime; 
+
+}  
+/* //.....shows aline moving under the hrefs.....//
+div ul li a:after{
+    content :'';
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(12, 173, 25);
+    transition: width 0.3s;  
+
+} 
+div ul li a:hover ::after{
+    width: 50%;
+} */
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid red;
+    margin-top: 13px;
+    color: rgb(214, 197, 194);
+    border-radius: 2px;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    border: solid 2px red;
+    background: rgb(102, 101, 37);
+    margin-top: 13px;
+    color: rgb(187, 140, 132);
+    height: 40px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+
+
+
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.btw:focus{
+    outline: none;
+}.srch:focus{
+    outline: none;
+}
+/* .content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+} */
+
+.text-box{
+    color: blue;
+    position: absolute;
+    bottom: '';
+    margin-top: 80px;
+}
+.text-box p{
+    font-size: 60px;
+    font-weight: 400;
+}
+.text-box h1{
+    font-size: 100px;
+    line-height: 90px;
+    margin-left: -4px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(188, 188, 231); 
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.text-box h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* .content h1{
+    font-family: 'lucida calligraphy';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: red;
+
+
+} */
+
+.text-box .cn{ 
+    width: 150px;
+    height: 40px;
+    background: violet;
+    border: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4 ease;
+    
+}
+.social-icons{
+    position: absolute;
+    right: 6%;
+    bottom: 8%;
+    
+}
+.social-icons img{
+    width: 40px;
+    cursor: pointer;
+    display: block;
+    margin: 25px 5px;
+    background: transparent;
+    border-radius: 25px;
+    
+    
+}
+/* .content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}.cn:hover{
+    background: yellowgreen;
+}
+.content span{
+    color: orange;
+    font-size: 60px;
+} */
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top,rgb(0,0,0,8) 50%,rgb(0,0,0,8) 50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 160px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+
+}
+.form input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: orange solid 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color-adjust: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+
+}
+.form input :focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.log{
+    width: 150px;
+    height: 40px;
+    background: violet;
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4 ease;
+}
+.log a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}.log:hover{
+    background: yellowgreen;
+}
